@@ -1,0 +1,1 @@
+### U rodièu to rozjet spoleènì s PhotoSorter, který by jim to roztøídil podle data a zajistil by, že si nìco nestáhnou 2x
