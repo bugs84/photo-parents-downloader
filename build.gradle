@@ -3,9 +3,14 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'groovy'
 
+compileJava.options.encoding = 'UTF-8'
+
+
 repositories {
     mavenCentral()
 }
+
+
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
@@ -14,6 +19,7 @@ dependencies {
 
 
 tasks {
+
     task myRun(type: JavaExec) {
       classpath sourceSets.main.runtimeClasspath
       main = "cz.vondr.photoparentsdownloader.Main"
