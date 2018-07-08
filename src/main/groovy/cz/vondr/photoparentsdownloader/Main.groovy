@@ -25,6 +25,8 @@ class Main {
 		
 		//println "VŠE ÚSPĚŠNĚ ZKOPÍROVÁNO"
 		println "VSE USPESNE ZKOPIROVANO do '$pcPhotoFolder'"
+		
+		openExplorerWithPcPhotoFolder()
     }
 
 	
@@ -49,7 +51,7 @@ class Main {
         }
 	}
 
-    private openExplorerWithPcPhotoFolder(File pcPhotoFolder) {
+    private openExplorerWithPcPhotoFolder() {
         Desktop.desktop.open(pcPhotoFolder)
     }
 
