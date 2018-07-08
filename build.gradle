@@ -20,7 +20,7 @@ dependencies {
 
 tasks {
 
-    task myRun(type: JavaExec) {
+    task copyPhotos(type: JavaExec) {
       classpath sourceSets.main.runtimeClasspath
       main = "cz.vondr.photoparentsdownloader.Main"
     }
