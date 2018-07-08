@@ -23,7 +23,8 @@ class Main {
 		
 		copyAllFiles()
 		
-		println "VŠE ÚSPĚŠNĚ ZKOPÍROVÁNO"
+		//println "VŠE ÚSPĚŠNĚ ZKOPÍROVÁNO"
+		println "VSE USPESNE ZKOPIROVANO do '$pcPhotoFolder'"
     }
 
 	
