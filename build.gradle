@@ -21,7 +21,14 @@ dependencies {
 tasks {
 
     task copyPhotos(type: JavaExec) {
-      classpath sourceSets.main.runtimeClasspath
-      main = "cz.vondr.photoparentsdownloader.Main"
+        classpath sourceSets.main.runtimeClasspath
+        main = "cz.vondr.photoparentsdownloader.Main"
     }
+
+    task deleteFlash(type: JavaExec) {
+        classpath sourceSets.main.runtimeClasspath
+        main = "cz.vondr.flash.ParentsFlashDeleter"
+    }
+
+
 }
